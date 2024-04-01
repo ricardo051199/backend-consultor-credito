@@ -14,7 +14,7 @@ def hola_mundo():
 @app.route('/consultar-credito', methods=['GET'])
 def consultar_credito():
     try:
-        return jsonify(resultado='Resultado')
+        return jsonify({'resultado': 'Resultado'})
     except ValueError:
         return jsonify(error="Los datos proporcionados no son válidos"), 400
 
