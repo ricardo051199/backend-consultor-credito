@@ -1,7 +1,4 @@
-from flask import Flask, request, jsonify
-from pgmpy.models import BayesianModel
-from pgmpy.factors.discrete import TabularCPD
-from pgmpy.inference import VariableElimination
+from flask import Flask, jsonify, request
 from flask_cors import CORS
 
 app = Flask(__name__)
