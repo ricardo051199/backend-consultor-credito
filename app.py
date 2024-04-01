@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from flask import Flask, request, jsonify
 from pgmpy.models import BayesianModel
 from pgmpy.factors.discrete import TabularCPD
